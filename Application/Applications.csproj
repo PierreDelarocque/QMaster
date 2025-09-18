@@ -8,9 +8,10 @@
 
   <ItemGroup>
     <Folder Include="Builder\" />
-    <Folder Include="DTO\" />
-    <Folder Include="Repository\" />
-    <Folder Include="Service\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
